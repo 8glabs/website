@@ -1,13 +1,16 @@
+import Image from "next/image";
 import Button from "./Button";
 import ExternalLink from "./ExternalLink";
 import styles from "../styles/JoinUs.module.css";
+import MapLeftPic from "../public/map-left.png";
+import MapRightPic from "../public/map-right.png";
 
 export default function JoinUs() {
   return (
     <div className={`${styles.wrapper} flex-center flex-column`}>
       <div className={`${styles.mapWrapper} flex-center justify-between`}>
-        <img src="/map-left.png" alt="" />
-        <img src="/map-right.png" alt="" />
+        <Image src={MapLeftPic} alt="" />
+        <Image src={MapRightPic} alt="" />
       </div>
       <h5 className={styles.label}>Interested In Joining Us?</h5>
       <ExternalLink
