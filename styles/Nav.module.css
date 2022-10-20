@@ -3,6 +3,7 @@
   color: #FFFFFF;
   font-size: 18px;
   line-height: 27px;
+  cursor: pointer;
 }
 
 .item:not(:first-child) {

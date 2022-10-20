@@ -1,6 +1,12 @@
 import Layout from "../components/Layout";
-import styles from "../styles/Home.module.css";
+import Badgee from "../components/Badgee";
+import Gatez from "../components/Gatez";
 
 export default function Home() {
-  return <Layout></Layout>;
+  return (
+    <Layout>
+      <Badgee />
+      <Gatez />
+    </Layout>
+  );
 }

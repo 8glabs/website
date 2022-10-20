@@ -13,3 +13,7 @@
   color: #FFFFFF;
   cursor: pointer;
 }
+
+.button > :not(:first-child) {
+  margin-left: 4px;
+}

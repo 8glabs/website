@@ -1,11 +1,12 @@
 import Button from "./Button";
 import styles from "../styles/Product.module.css";
 import GatezLogoSvg from "../public/gatez-logo.svg";
+import ArrowRightSvg from "../public/arrow-right.svg";
 import ExternalLink from "../components/ExternalLink";
 
 export default function Gatez() {
   return (
-    <div className={`${styles.wrapper} flex-center justify-center`}>
+    <div id="gatez" className={`${styles.wrapper} flex-center justify-center`}>
       <div className="content-container flex-center">
         <div className="left">
           <GatezLogoSvg />
@@ -17,7 +18,7 @@ export default function Gatez() {
             discord server, telegram group or website.
           </p>
           <ExternalLink href="https://gatez.io">
-            <Button>Visit</Button>
+            <Button end={<ArrowRightSvg />}>Visit</Button>
           </ExternalLink>
         </div>
         <img src="/gatez-pic.png" alt="" />

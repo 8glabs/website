@@ -11,13 +11,16 @@ export default function Footer() {
       <p>© 2021-{new Date().getFullYear()} 8glabs, Inc.</p>
       <p className="mt-2">All Rights Reserved</p>
       <div className="flex-center mt-4">
-        <ExternalLink>
+        <ExternalLink href="https://twitter.com/catalog_lu">
           <TwitterSvg className={`${styles.social} ${styles.twitter}`} />
         </ExternalLink>
-        <ExternalLink className="ml-4">
+        <ExternalLink
+          className="ml-4"
+          href="https://discord.com/invite/Nskxybzbgp"
+        >
           <DiscordSvg className={`${styles.social} ${styles.discord}`} />
         </ExternalLink>
-        <ExternalLink className="ml-4">
+        <ExternalLink className="ml-4" href="mailto:support@8glabs.com">
           <MailSvg className={`${styles.social} ${styles.mail}`} />
         </ExternalLink>
       </div>
