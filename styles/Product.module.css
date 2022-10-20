@@ -1,0 +1,24 @@
+.wrapper {
+  height: 600px;
+  background: radial-gradient(100% 576% at 100% 0%, #FFFFFF 0%, #EBEBEB 52.6%, #FFFFFF 100%);
+}
+
+.left {
+  flex: 1 1 auto;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 60px;
+  color: #030303;
+  margin-top: 24px;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 32px;
+  color: #606060;
+  margin-top: 24px;
+  margin-bottom: 49px;
+}
