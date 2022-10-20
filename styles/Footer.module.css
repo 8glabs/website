@@ -1,0 +1,22 @@
+.wrapper {
+  padding: 56px 0;
+  font-size: 14px;
+  line-height: 24px;
+  color: #606060;
+}
+
+.social {
+  fill: #606060;
+}
+
+.twitter:hover {
+  fill: #0FAEF2;
+}
+
+.discord:hover {
+  fill: #5865F2;
+}
+
+.mail:hover {
+  fill: #1A90E7;
+}
