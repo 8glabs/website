@@ -6,14 +6,17 @@ import styles from "../styles/Header.module.css";
 import TwitterSvg from "../public/twitter.svg";
 import DiscordSvg from "../public/discord.svg";
 import LogoSvg from "../public/logo.svg";
+import BgPic from "../public/bg.png";
 import Link from "next/link";
 
 export default function Header() {
   const router = useRouter();
-  console.log({ router });
 
   return (
-    <header className={styles.background}>
+    <header
+      className={styles.background}
+      style={{ backgroundImage: `url(${BgPic.src})` }}
+    >
       <div className="content-container">
         <div className={`${styles.headerWrapper} flex-center justify-between`}>
           <Link href="/">

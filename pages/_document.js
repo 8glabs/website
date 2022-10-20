@@ -5,8 +5,8 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <meta name="8glabs" content="8glabs" />
-          <link rel="icon" href="/favicon.ico" />
+          <meta name="8glabs" content="8glabs website" />
+          <link rel="icon" href="/favicon.png" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
           <link

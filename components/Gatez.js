@@ -1,6 +1,8 @@
+import Image from "next/image";
 import Button from "./Button";
 import styles from "../styles/Product.module.css";
 import GatezLogoSvg from "../public/gatez-logo.svg";
+import GatezPic from "../public/gatez-pic.png";
 import ArrowRightSvg from "../public/arrow-right.svg";
 import ExternalLink from "../components/ExternalLink";
 
@@ -21,7 +23,9 @@ export default function Gatez() {
             <Button end={<ArrowRightSvg />}>Visit</Button>
           </ExternalLink>
         </div>
-        <img src="/gatez-pic.png" alt="" />
+        <div style={{ width: "700px", flex: "0 0 auto", marginLeft: "58px" }}>
+          <Image src={GatezPic} width={700} height={390} alt="" />
+        </div>
       </div>
     </div>
   );

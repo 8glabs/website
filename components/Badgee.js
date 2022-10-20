@@ -24,13 +24,9 @@ export default function Badgee() {
             <Button end={<ArrowRightSvg />}>Visit</Button>
           </ExternalLink>
         </div>
-        <Image
-          src={"badgee-pic.png"}
-          width={641}
-          height={400}
-          alt=""
-          style={{ marginLeft: "68px" }}
-        />
+        <div style={{ width: "641px", flex: "0 0 auto", marginLeft: "58px" }}>
+          <Image src={BadgeePic} width={641} height={400} alt="" />
+        </div>
       </div>
     </div>
   );
