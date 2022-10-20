@@ -1,17 +1,16 @@
-import Image from "next/image";
-
 import ExternalLink from "./ExternalLink";
 import Nav from "./Nav";
 import styles from "../styles/Header.module.css";
 import TwitterSvg from "../public/twitter.svg";
 import DiscordSvg from "../public/discord.svg";
+import LogoSvg from "../public/logo.svg";
 
 export default function Header() {
   return (
     <header className={styles.background}>
       <div className="content-container">
         <div className={`${styles.headerWrapper} flex-center justify-between`}>
-          <Image src="/logo.svg" height={40} width={124} alt="" />
+          <LogoSvg />
           <Nav />
           <div className="flex-center">
             <ExternalLink className="line-height-none">

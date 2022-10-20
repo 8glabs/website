@@ -1,0 +1,43 @@
+.wrapper {
+  padding: 80px 0;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.title:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #1A90E7;
+  border-radius: 0px 0px 24px 24px;
+  margin-top: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.text {
+  max-width: 760px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #606060;
+  margin-top: 39px;
+  text-align: center;
+}
+
+.itemWrapper {
+  width: 1056px;
+  margin-top: 24px;
+  margin-left: -20px;
+  margin-right: -20px;
+  flex-wrap: wrap;
+}
+
+.item {
+  margin: 40px 20px 0;
+}

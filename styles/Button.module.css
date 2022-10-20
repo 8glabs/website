@@ -1,0 +1,15 @@
+.button {
+  all: unset;
+  width: 200px;
+  height: 40px;
+  background: radial-gradient(52.15% 47.92% at 50% 2.08%, #00D1FF 0%, #1A90E7 100%);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
