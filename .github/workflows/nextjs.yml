@@ -30,6 +30,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        run: echo "The API key is:${{secrets.NEXT_PUBLIC_GA}}"
       - name: Detect package manager
         id: detect-package-manager
         run: |
