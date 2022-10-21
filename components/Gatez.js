@@ -23,7 +23,7 @@ export default function Gatez() {
             <Button end={<ArrowRightSvg />}>Visit</Button>
           </ExternalLink>
         </div>
-        <div style={{ width: "700px", flex: "0 0 auto", marginLeft: "58px" }}>
+        <div style={{ width: "700px", flex: "0 0 auto" }}>
           <Image src={GatezPic} width={700} height={390} alt="" />
         </div>
       </div>

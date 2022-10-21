@@ -6,7 +6,7 @@ import styles from "../styles/Header.module.css";
 import TwitterSvg from "../public/twitter.svg";
 import DiscordSvg from "../public/discord.svg";
 import LogoSvg from "../public/logo.svg";
-import BgPic from "../public/bg.png";
+import BgPic from "../public/bg.jpeg";
 import Link from "next/link";
 
 export default function Header() {
@@ -26,13 +26,13 @@ export default function Header() {
           <div className="flex-center">
             <ExternalLink
               className="line-height-none"
-              href="https://twitter.com/catalog_lu"
+              href="https://twitter.com/8glabs"
             >
               <TwitterSvg className={styles.social} />
             </ExternalLink>
             <ExternalLink
               className="line-height-none ml-4"
-              href="https://discord.com/invite/Nskxybzbgp"
+              href="https://discord.gg/Nskxybzbgp"
             >
               <DiscordSvg className={styles.social} />
             </ExternalLink>
@@ -40,9 +40,9 @@ export default function Header() {
         </div>
         {router.pathname === "/" && (
           <div className={`${styles.banner} flex-center flex-column`}>
-            <span>We are building the</span>
+            <span>WE ARE BUILDING THE</span>
             <span>FUTURE</span>
-            <span>of web3</span>
+            <span>OF WEB3</span>
           </div>
         )}
         {router.pathname === "/company" && (
