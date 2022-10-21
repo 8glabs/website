@@ -28,9 +28,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Test
+        run: echo "The API key is:${{secrets.NEXT_PUBLIC_GA}}"
       - name: Checkout
         uses: actions/checkout@v3
-        run: echo "The API key is:${{secrets.NEXT_PUBLIC_GA}}"
       - name: Detect package manager
         id: detect-package-manager
         run: |
