@@ -30,8 +30,6 @@ jobs:
     environment:
       name: github-pages
     steps:
-      - name: Test
-        run: echo "The API key is:${{secrets.NEXT_PUBLIC_GA}}"
       - name: Checkout
         uses: actions/checkout@v3
       - name: Detect package manager

@@ -15,6 +15,5 @@ export const usePageTracking = () => {
 
 export default function MyApp({ Component, pageProps }) {
   usePageTracking();
-  console.log(process.env.NEXT_PUBLIC_GA);
   return <Component {...pageProps} />;
 }
